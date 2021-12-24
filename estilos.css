@@ -32,16 +32,31 @@ nav{
     background-color: #000000d3;
 }
 
-
+#navbar{
+  transition: top 0.5s;
+}
 
 .nav {
     display: flex;
 }
 
+.nav div {
+  
+}
+
+.enlacesHeader{
+  text-align: center;
+}
+
+
+.enlacesHeader a img{
+  width: 30%;
+  margin-top: -8%;
+}
 
 .header {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   /*background-color:grey;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/33.jpg);
   background-attachment: fixed;
@@ -111,7 +126,7 @@ h3{
 }
 
 .bloqueDos{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/_MG_9821.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/MG_9821.jpg);
 
   background-position: center;
   background-repeat: no-repeat;

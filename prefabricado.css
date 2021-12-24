@@ -43,6 +43,7 @@
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
+    cursor:pointer;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -68,3 +69,34 @@
     .sidenav a {font-size: 18px;}
   }
   /*Fin del menú lateral*/
+
+
+
+
+/*Top button*/
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover 
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));*/
+  }
+  
+  #myBtn:hover {
+    padding: 7px;
+    border-width: 0 4px 4px 0;
+  }
+
+
+
+
+  .arrowup{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
